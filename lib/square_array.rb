@@ -4,7 +4,7 @@ def square_array(array)
   while counter < array.length do
     array2 << (array[counter] ** 2)
     counter += 1
-    puts "Step #{counter}: #{array2}"
+    puts "Step #{counter}: #{array}"
   end
   return array2
 end
